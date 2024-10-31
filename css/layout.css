@@ -1,0 +1,53 @@
+.noUi-horizontal {
+    height: 8px !important;
+    margin-top: 20px;
+}
+.noUi-horizontal .noUi-handle {
+    width: 20px !important;
+    height: 30px !important;
+    left: -17px !important;
+    top: -17px !important;
+    cursor: pointer;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: unset !important;
+}
+.noUi-horizontal .noUi-handle.noUi-handle-lower {
+    left: -9px !important;
+    background: url("../images/slider-min.png") center 0px no-repeat;
+}
+.noUi-horizontal .noUi-handle.noUi-handle-upper {
+    left: -10px !important;
+    background: url("../images/slider-max.png") center -28px no-repeat;
+    top: 3px !important;
+}
+.noUi-handle:after, .noUi-handle:before {
+    content: none !important;
+}
+.noUi-handle:after {
+    left: 10px !important;
+}
+.noUi-handle:focus {
+	outline: 0 !important;
+}
+.ot-price-filter-wrapper {
+    margin: 20px 0 10px;
+}
+.ot-price-filter-wrapper input {
+    padding: 5px;
+    font-size: 11px;
+    width: 25%;
+    border-width: 1px;
+}
+.ot-price-filter-wrapper input,.ot-price-filter-wrapper input:focus {
+    outline: 0;
+}
+.ot-price-filter-wrapper input#max_price {
+    float: right;
+}
+.ot-price-filter-wrapper button {
+    font-size: 12px !important;
+    margin-top: 10px !important;
+    float: right;
+    border-radius: 0 !important;
+}
